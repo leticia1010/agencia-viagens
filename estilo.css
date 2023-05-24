@@ -1,0 +1,263 @@
+/*css da página principal e de todas as páginas*/
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+header,main,footer,section{
+    width: 100%;
+}
+
+header{
+    background-color: #96958a;
+   
+    display: flex;
+   
+}
+header .login{
+   margin-left: 20vw;
+   text-align: center;
+}
+header .logo{
+    margin-right: 20vw;
+    margin: 0 auto;
+  
+}
+header .cabecalho{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+div nav,section{
+    padding: 10px;
+    box-sizing: border-box;
+}
+div nav{
+    text-align: center;
+   
+   
+}
+footer nav{
+    margin-top: -55px;
+}
+.formulario{
+   padding: 30px;
+ 
+   box-sizing: border-box;
+   display: flex;
+}
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 2px 2px 22px black;
+    width: 50%;
+    
+   
+}
+.margem{
+    margin-left: 35%;
+}
+.margem p{
+    background-color:  #88b8a9;
+    padding: 10px;
+}
+
+.form-linear{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aeromoca{
+    margin: auto 5px auto 30px;
+    width: 90%;
+    height: 90%;
+    max-width: 600px;
+    min-width: 400px;
+    
+  
+}
+
+.aeromoca img{
+    
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+.logo a{
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+   color: blue;
+    font-size: larger;
+}
+input{
+    margin-bottom: 10px;
+}
+.centro{
+    margin: 10px auto;
+    width: 90%;
+   
+}
+main{
+    background-color: #88b8a9;
+    
+}
+footer{
+   
+    margin-top: 60px;
+}
+section{
+    background: linear-gradient(190deg, #d9d495, #1a181800);
+}
+
+.card-unico{
+   border-radius: 10px;
+    width: 350px;
+    background-color: beige;
+    margin: 0 auto 20px auto;
+}
+.card-pequeno{
+    border: 1px solid red;
+    width: 260px;
+    background-color: beige;
+    font-size: 18px;
+    margin: 0 auto 10px auto;
+}
+button{
+   
+    padding: 10px;
+    width: 110px;
+    margin: 10px;
+    color: blue;
+    font-size: larger;
+}
+button:hover{
+    cursor:pointer
+}
+.cards{
+    display: flex;
+   
+    flex-wrap: wrap;
+    width: 95%;
+   margin: 0 auto;
+}
+.redes-sociais img{
+    width: 35px;
+    height: 35px;
+}
+.redes-sociais{
+margin-bottom: -30px;
+margin-left: 20%;
+padding-top: 20px;
+
+}
+.redes-sociais img:hover{
+    background-color: aliceblue;
+    
+}
+
+img{
+    width: 100%;
+   
+    height: 200px;
+}
+a:hover{
+    color: darkblue;
+    cursor: pointer;
+}
+.card-unico:hover,.card-pequeno:hover{
+    box-shadow: 2px 2px 10px black;
+   
+}
+.limite{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*css da página de login*/
+.espacoCards{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.form-coluna{
+    display: flex;
+    flex-flow: column wrap;
+    width: 90%;
+}
+.form-coluna input{
+   
+   padding: 5px;
+   min-width: 100px;
+}
+
+.icones img{
+    width: 50px;
+    height: 50px;
+}
+.central{
+    text-align: center;
+   border: 1px solid black;
+   width: 80%;
+   margin: 0 auto;
+   background-color: midnightblue;
+   color: rgb(250, 241, 241);
+}
+.central form{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    background-color:#f0e999;
+    
+}
+.central form input{
+   margin: 0 5px 0 50px;
+   width: 30%;
+  
+
+}
+/*css da página passagens
+
+
+*/
+.secao1-form{
+    display:block;
+}
+.card-companhia{
+    height: 300px;
+    width: 200px;  
+}
+
+
+@media (max-width:764px) {
+    .links-topo{
+        display: none;
+    }
+    .aeromoca{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        background-color: white;
+    }
+    
+}
+@media (max-width:1140px) {
+    .redes-sociais{
+        display: none;
+    }
+}
+@media  (max-width:530px){
+    .login{
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
